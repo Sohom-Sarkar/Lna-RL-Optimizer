@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Training artifacts
+runs/
+results/
+*.zip
+*.7z
+*.pkl
+
+# ngspice binaries (see README for download instructions)
+ngspice/*.exe
+ngspice/*.dll
+
+# Local debug scratch
+debug_bsim.py
+debug_sim.py
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+notebooks/.ipynb_checkpoints/
